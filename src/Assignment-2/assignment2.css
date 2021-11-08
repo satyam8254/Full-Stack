@@ -1,7 +1,26 @@
 /* Our CSS file. */
 
+.container,
+.content,
+.header {
+    width: 100%;
+    height: 100%;
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+.header {
+    background: aqua;
+}
+
+.nav {
+    border: 1px solid gray;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.section {
+    display: inline-block;
+    vertical-align: top;
 }
