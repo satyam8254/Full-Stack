@@ -1,7 +1,68 @@
 /* Our CSS file. */
 
+#container {
+    margin: 56px;
+    border: 1px solid;
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+header {
+    background-color: aquamarine;
+    margin: 20px;
+}
+
+.header-section {
+    display: inline-block;
+}
+
+.header-section img {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.header-section form {
+    margin-left: 990px;
+    margin-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* .header-section :nth-child(2) {
+    float: right;
+} */
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar {
+    border: 1px solid;
+    margin: 10px 20px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.content-section {
+    display: flex;
+    margin: 20px;
+    border: 1px solid;
+}
+
+aside ul li {
+    margin: 0px 20px;
+}
+
+.content section img {
+    width: 250px;
+    height: 250px;
+    margin: 25px 25px;
+}
+
+footer {
+    margin: 10px 20px;
 }
